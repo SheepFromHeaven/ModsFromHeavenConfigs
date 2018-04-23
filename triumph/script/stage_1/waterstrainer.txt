@@ -1,0 +1,11 @@
+setIcon("waterstrainer:strainer_base")
+
+setTitle("Net it")
+
+setDescription("Use a strainer to collect stone")
+
+setParent("triumph:stage_1/string")
+setRequiresParent(true)
+
+criteria = addCriteria("hasStrainer", "minecraft:inventory_changed")
+criteria.addItem("waterstrainer:strainer_base")

@@ -1,10 +1,10 @@
 setIcon("primal_tech:stick_bundle")
 
-setTitle("Sticks")
+setTitle("Caution! Flamable")
 
-setDescription("Get string by using plants or killing spiders")
+setDescription("Craft a bundle of sticks")
 
-setParent("triumph:stage_1/string")
+setRequiresParent(true)
 
 criteria = addCriteria("hasString", "minecraft:inventory_changed")
 criteria.addItem("minecraft:string")

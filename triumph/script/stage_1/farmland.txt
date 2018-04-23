@@ -1,0 +1,11 @@
+setIcon("minecraft:farmland")
+
+setTitle("The land is alive!")
+
+setDescription("Craft farmland")
+
+setParent("triumph:stage_1/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasFarmland", "minecraft:inventory_changed")
+criteria.addItem("minecraft:farmland")

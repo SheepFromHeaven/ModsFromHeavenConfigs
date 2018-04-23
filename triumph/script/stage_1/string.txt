@@ -2,9 +2,10 @@ setIcon("minecraft:string")
 
 setTitle("Stringy")
 
-setDescription("Get string by using plants or killing spiders")
+setDescription("Get string by using cotton or hemp seeds")
 
-setParent("triumph:stage_1/logs")
+setParent("triumph:stage_1/farmland")
+setRequiresParent(true)
 
 criteria = addCriteria("hasString", "minecraft:inventory_changed")
 criteria.addItem("minecraft:string")
