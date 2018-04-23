@@ -1,0 +1,10 @@
+setIcon("minecraft:map")
+setTitle("A whole new world")
+setDescription("You started a new game from heaven")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png") 
+setShowToast(false)
+setAnnounceToChat(false)
+
+
+addCriteria("location", "minecraft:location")
+setRequirements("any")

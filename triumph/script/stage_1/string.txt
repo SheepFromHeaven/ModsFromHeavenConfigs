@@ -1,0 +1,10 @@
+setIcon("minecraft:string")
+
+setTitle("Stringy")
+
+setDescription("Get string by using plants or killing spiders")
+
+setParent("triumph:stage_1/logs")
+
+criteria = addCriteria("hasString", "minecraft:inventory_changed")
+criteria.addItem("minecraft:string")

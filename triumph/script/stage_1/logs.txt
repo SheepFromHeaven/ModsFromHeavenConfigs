@@ -1,0 +1,10 @@
+setIcon("minecraft:log")
+
+setTitle("console.Log")
+
+setDescription("Acquire delicious logs")
+
+setParent("triumph:stage_1/root")
+
+criteria = addCriteria("hasLog", "minecraft:inventory_changed")
+criteria.addItem("minecraft:log")

@@ -1,0 +1,10 @@
+setIcon("tconstruct:pickaxe")
+
+setTitle("Picky")
+
+setDescription("Get a pickaxe")
+
+setParent("triumph:stage_1/sticky")
+
+criteria = addCriteria("hasPick", "minecraft:inventory_changed")
+criteria.addItem("tconstruct:pickaxe")
